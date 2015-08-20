@@ -1,4 +1,4 @@
-run_analsys<- function()
+run_analysis<- function()
 {
 #This function will read multiple files from the 
 #"Human Activity Recognition Using Smartphones Dataset Version 1.0". 
@@ -7,7 +7,7 @@ run_analsys<- function()
 #unzipped and placed in the root of your working directory or 
 #use the "setwd" to a set the desired location of these files. 
 #
-#The script will proceed to combine the two data sets (train & test), 
+#The function will proceed to combine the two data sets (train & test), 
 #narrow the columns to only contain the "mean" and "std" calculations 
 #and add descriptive column names.
 #
@@ -15,7 +15,7 @@ run_analsys<- function()
 #activity associated to each subject all in a nice Tidy format.
         
 # Use: 
-# load/run "run_analsys()" with no parameters
+# load/run "run_analysis()" with no parameters
 # Again don't forget to setwd() to root of file location & subdirectories
 #
 # The output file "mean_report" can be loaded & viewed via this: 
