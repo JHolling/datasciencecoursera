@@ -18,8 +18,8 @@ run_analysis<- function()
 # load/run "run_analysis()" with no parameters
 # Again don't forget to setwd() to root of file location & subdirectories
 #
-# The output file "mean_report" can be loaded & viewed via this: 
-#        mean_report<-read.table("mean_report.txt",header=T)
+# The output file "tidy_mean_data" can be loaded & viewed via this: 
+#        tidy_mean_data<-read.table("tidy_mean_data.txt",header=T)
         
 library(dplyr)
 
@@ -67,8 +67,8 @@ narrow_all[,3]<-activity_labels[narrow_all[,3],2]
 
    ##process groups and running mean on all##
 grouped<-group_by(narrow_all,Subject,Activity,DataSet) ##
-mean_report<-grouped%>%summarise_each(funs(mean)) ##
+tidy_mean_data<-grouped%>%summarise_each(funs(mean)) ##
 
-write.table(mean_report,file="mean_report.txt",row.names=FALSE)
-return("mean_report.txt should be written to setwd location")
+write.table(tidy_mean_data,file="tidy_mean_data.txt",row.names=FALSE)
+return("tidy_mean_data.txt should be written to setwd location")
 }
