@@ -9,15 +9,9 @@ The report contains 180 observations and 82 total columns/variables
 
 Column Name      --       value/Range/units
 
-Subject          --       1-30  : indicate subject used for test
+Subject          --     1-30  : indicate subject used for test
 
-Activity         --  
-						SITTING  
-						STANDING  
-						WALKING  
-						WALKING_DOWNSTAIRS  
-						WALKING_UPSTAIRS  
-						LAYING  
+Activity         --   *SITTING *STANDING *WALKING *WALKING_DOWNSTAIRS *WALKING_UPSTAIRS  *LAYING  
 	  
 DataSet 	      --        Test or Train: listing data set
 
