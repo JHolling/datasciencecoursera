@@ -20,9 +20,9 @@ Activity         --       SITTING
 	  
 DataSet 	      --        Test or Train: listing data set
 
-                  --        1 min to 1 max : for all calucations below.
+                  --        1 min to 1 max range for all calculationslations below.
 tBodyAccelerometermeanX 
-tBodyAccelerometermeanY                
+tBodyAccelerometermeanY
 tBodyAccelerometermeanZ                 
 tGravityAccelerometermeanX              
 tGravityAccelerometermeanY              
