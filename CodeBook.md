@@ -7,20 +7,20 @@ The "mean" processing was taken on the resulting mean and std for several observ
 
 The report contains 180 observations and 82 total columns/variables
 
-Column Name                     value/Range/units
+Column Name --               value/Range/units
 
-Subject                         1-30 : indicate subject used for test
+Subject  --                1-30 : indicate subject used for test
 
-Activity                        SITTING	  :test proceeded by subject
-                                STANDING
-                                WALKING
-                                WALKING_DOWNSTAIRS
-                                WALKING_UPSTAIRS
-                                LAYING
+Activity  --               SITTING	  :test proceeded by subject
+                           STANDING
+                           WALKING
+                           WALKING_DOWNSTAIRS
+                           WALKING_UPSTAIRS
+						   LAYING
 	  
-DataSet                         Test or Train: located of data set
+DataSet 	               Test or Train: located of data set
 
-tBodyAccelerometermeanX         -1 min to 1 max: "mean" for all calucations below
+tBodyAccelerometermeanX   -1 min to 1 max: "mean" for all calucations below
 tBodyAccelerometermeanY                
 tBodyAccelerometermeanZ                 
 tGravityAccelerometermeanX              
