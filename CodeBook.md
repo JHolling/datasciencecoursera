@@ -9,9 +9,9 @@ The report contains 180 observations and 82 total columns/variables
 
 Column Name      --       value/Range/units
 
-Subject          --       1-30 : indicate subject used for test
+Subject          --       1-30  : indicate subject used for test
 
-Activity          .       SITTING
+Activity         --       SITTING
                   .       STANDING
                   .       WALKING
                   .       WALKING_DOWNSTAIRS
@@ -20,7 +20,7 @@ Activity          .       SITTING
 	  
 DataSet 	      --        Test or Train: located of data set
 
-tBodyAccelerometermeanX  .  -1 min to 1 max: "mean" for all calucations below
+tBodyAccelerometermeanX  ..  -1 min to 1 max : for all calucations below
 tBodyAccelerometermeanY                
 tBodyAccelerometermeanZ                 
 tGravityAccelerometermeanX              
