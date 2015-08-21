@@ -18,7 +18,7 @@ Activity                        SITTING	  :test proceeded by subject
                                 WALKING_UPSTAIRS
                                 LAYING
 	  
-DataSet                         Test or Train: depends on data set
+DataSet                         Test or Train: located of data set
 
 tBodyAccelerometermeanX         -1 min to 1 max: "mean" for all calucations below
 tBodyAccelerometermeanY                
