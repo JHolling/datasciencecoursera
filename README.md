@@ -9,6 +9,10 @@ This independent tidy dataset includes the following files:
  3. CodeBook.txt : details about the data set
  4. tidy_mean_data.txt: Tidy processed data for means of means & stds
 
+To run the Function:
+1. source the "run_analysis.R" function script
+2. type "run_analysis()" without any parameters
+
 Loading Notes:
 The run_analysis.R function can be loaded into your local R by running:
   read.table("run_analysis.R",header=TRUE)
