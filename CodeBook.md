@@ -18,9 +18,9 @@ Activity         --       SITTING
                   .       WALKING_UPSTAIRS
 				  .       LAYING
 	  
-DataSet 	      --        Test or Train: located of data set
+DataSet 	      --        Test or Train: listing data set
 
-tBodyAccelerometermeanX  ..  -1 min to 1 max : for all calucations below
+tBodyAccelerometermeanX  ..  -1 min to 1 max : for all calucations below.
 tBodyAccelerometermeanY                
 tBodyAccelerometermeanZ                 
 tGravityAccelerometermeanX              
