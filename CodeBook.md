@@ -7,173 +7,95 @@ The "mean" processing was taken on the resulting mean and std for several observ
 
 The report contains 180 observations and 82 total columns/variables
 
-Column Name				value/Range/units
+Column Name                     value/Range/units
 
-Subject    				1-30
+Subject                         1-30 : indicate subject used for test
 
-Activity  				SITTING	
-	 				STANDING
-	  				WALKING
-	  				WALKING_DOWNSTAIRS
-	  				WALKING_UPSTAIRS
-	  				LAYING
+Activity                        SITTING	  :test proceeded by subject
+                                STANDING
+                                WALKING
+                                WALKING_DOWNSTAIRS
+                                WALKING_UPSTAIRS
+                                LAYING
 	  
-DataSet  				Test or Train
-
-tBodyAccelerometermeanX 		-1 to 1 
-
-tBodyAccelerometermeanY			-1 to 1
-
-tBodyAccelerometermeanZ			-1 to 1
-
-tGravityAccelerometermeanX		-1 to 1
-
-tGravityAccelerometermeanY		-1 to 1
-
-tGravityAccelerometermeanZ		-1 to 1
-
-tBodyAccelerometerJerkmeanX		-1 to 1
-
-tBodyAccelerometerJerkmeanY		-1 to 1
-
-tBodyAccelerometerJerkmeanZ		-1 to 1
-
-tBodyGyroscopemeanX			-1 to 1
-
-tBodyGyroscopemeanY			-1 to 1
-
-tBodyGyroscopemeanZ			-1 to 1
-
-tBodyGyroscopeJerkmeanX			-1 to 1
-
-tBodyGyroscopeJerkmeanY			-1 to 1
-
-tBodyGyroscopeJerkmeanZ			-1 to 1
-
-tBodyAccelerometerMagnitudemean		-1 to 1
-
-tGravityAccelerometerMagnitudemean 	-1 to 1
-
-tBodyAccelerometerJerkMagnitudemean 	-1 to 1
-
-tBodyGyroscopeMagnitudemean		-1 to 1
-
-tBodyGyroscopeJerkMagnitudemean		-1 to 1
-
-fBodyAccelerometermeanX			-1 to 1
-
-fBodyAccelerometermeanY			-1 to 1
-
-fBodyAccelerometermeanZ			-1 to 1
-
-fBodyAccelerometermeanFreqX		-1 to 1
-
-fBodyAccelerometermeanFreqY		-1 to 1
-
-fBodyAccelerometermeanFreqZ		-1 to 1
-
-fBodyAccelerometerJerkmeanX		-1 to 1
-
-fBodyAccelerometerJerkmeanY		-1 to 1
-
-fBodyAccelerometerJerkmeanZ		-1 to 1
-
-fBodyAccelerometerJerkmeanFreqX		-1 to 1
-
-fBodyAccelerometerJerkmeanFreqY		-1 to 1
-
-fBodyAccelerometerJerkmeanFreqZ		-1 to 1
-
-fBodyGyroscopemeanX			-1 to 1
-
-fBodyGyroscopemeanY			-1 to 1
-
-fBodyGyroscopemeanZ			-1 to 1
-
-fBodyGyroscopemeanFreqX			-1 to 1
-
-fBodyGyroscopemeanFreqY			-1 to 1
-
-fBodyGyroscopemeanFreqZ			-1 to 1
-
-fBodyAccelerometerMagnitudemean		-1 to 1
-				
-fBodyAccelerometerMagnitudemeanFreq 	-1 to 1
-
-fBodyBodyAccelerometerJerkMagnitudemean -1 to 1
-
-fBodyBodyAccelerometerJerkMagnitudemeanFreq -1 to 1
-
-fBodyBodyGyroscopeMagnitudemean		-1 to 1
-
-fBodyBodyGyroscopeMagnitudemeanFreq 	-1 to 1
-	
-fBodyBodyGyroscopeJerkMagnitudemean	-1 to 1
-
-fBodyBodyGyroscopeJerkMagnitudemeanFreq -1 to 1
-
-tBodyAccelerometerstdX			-1 to 1
-
-tBodyAccelerometerstdY			-1 to 1
-
-tBodyAccelerometerstdZ			-1 to 1
-
-tGravityAccelerometerstdX		-1 to 1
-
-tGravityAccelerometerstdY		-1 to 1
-
-tGravityAccelerometerstdZ		-1 to 1
-
-tBodyAccelerometerJerkstdX		-1 to 1
-
-tBodyAccelerometerJerkstdY		-1 to 1
-
-tBodyAccelerometerJerkstdZ		-1 to 1
-
-tBodyGyroscopestdX			-1 to 1
-
-tBodyGyroscopestdY			-1 to 1
-
-tBodyGyroscopestdZ			-1 to 1
-
-tBodyGyroscopeJerkstdX			-1 to 1
-
-tBodyGyroscopeJerkstdY			-1 to 1
-
-tBodyGyroscopeJerkstdZ			-1 to 1
-
-tBodyAccelerometerMagnitudestd		-1 to 1
-
-tGravityAccelerometerMagnitudestd	-1 to 1
-
-tBodyAccelerometerJerkMagnitudestd	-1 to 1
-
-tBodyGyroscopeMagnitudestd		-1 to 1
-
-tBodyGyroscopeJerkMagnitudestd		-1 to 1
-
-fBodyAccelerometerstdX			-1 to 1
-
-fBodyAccelerometerstdY			-1 to 1
-
-fBodyAccelerometerstdZ			-1 to 1
-
-fBodyAccelerometerJerkstdX		-1 to 1
-
-fBodyAccelerometerJerkstdY		-1 to 1
-
-fBodyAccelerometerJerkstdZ		-1 to 1
-
-fBodyGyroscopestdX			-1 to 1
-	
-fBodyGyroscopestdY			-1 to 1
-
-fBodyGyroscopestdZ			-1 to 1
-
-fBodyAccelerometerMagnitudestd		-1 to 1
-
-fBodyBodyAccelerometerJerkMagnitudestd	-1 to 1
-
-fBodyBodyGyroscopeMagnitudestd		-1 to 1
-
-fBodyBodyGyroscopeJerkMagnitudestd	-1 to 1
+DataSet                         Test or Train: depends on data set
+
+tBodyAccelerometermeanX         -1 min to 1 max: "mean" for all calucations below
+tBodyAccelerometermeanY                
+tBodyAccelerometermeanZ                 
+tGravityAccelerometermeanX              
+tGravityAccelerometermeanY              
+tGravityAccelerometermeanZ              
+tBodyAccelerometerJerkmeanX             
+tBodyAccelerometerJerkmeanY             
+tBodyAccelerometerJerkmeanZ             
+tBodyGyroscopemeanX                     
+tBodyGyroscopemeanY                   
+tBodyGyroscopemeanZ                     
+tBodyGyroscopeJerkmeanX                 
+tBodyGyroscopeJerkmeanY                
+tBodyGyroscopeJerkmeanZ                 
+tBodyAccelerometerMagnitudemean         
+tGravityAccelerometerMagnitudemean      
+tBodyAccelerometerJerkMagnitudemean     
+tBodyGyroscopeMagnitudemean            
+tBodyGyroscopeJerkMagnitudemean          
+fBodyAccelerometermeanX			
+fBodyAccelerometermeanY			
+fBodyAccelerometermeanZ			
+fBodyAccelerometermeanFreqX		
+fBodyAccelerometermeanFreqY		
+fBodyAccelerometermeanFreqZ		
+fBodyAccelerometerJerkmeanX		
+fBodyAccelerometerJerkmeanY		
+fBodyAccelerometerJerkmeanZ		
+fBodyAccelerometerJerkmeanFreqX		
+fBodyAccelerometerJerkmeanFreqY		
+fBodyAccelerometerJerkmeanFreqZ		
+fBodyGyroscopemeanX			
+fBodyGyroscopemeanY			
+fBodyGyroscopemeanZ			
+fBodyGyroscopemeanFreqX			
+fBodyGyroscopemeanFreqY			
+fBodyGyroscopemeanFreqZ			
+fBodyAccelerometerMagnitudemean		
+fBodyAccelerometerMagnitudemeanFreq 	
+fBodyBodyAccelerometerJerkMagnitudemean 
+fBodyBodyAccelerometerJerkMagnitudemeanFreq 
+fBodyBodyGyroscopeMagnitudemean		
+fBodyBodyGyroscopeMagnitudemeanFreq 	
+fBodyBodyGyroscopeJerkMagnitudemean	
+fBodyBodyGyroscopeJerkMagnitudemeanFreq 
+tBodyAccelerometerstdX			
+tBodyAccelerometerstdY			
+tBodyAccelerometerstdZ			
+tGravityAccelerometerstdX		
+tGravityAccelerometerstdY		
+tGravityAccelerometerstdZ		
+tBodyAccelerometerJerkstdX		
+tBodyAccelerometerJerkstdY		
+tBodyAccelerometerJerkstdZ		
+tBodyGyroscopestdX			
+tBodyGyroscopestdY			
+tBodyGyroscopestdZ			
+tBodyGyroscopeJerkstdX			
+tBodyGyroscopeJerkstdY			
+tBodyGyroscopeJerkstdZ			
+tBodyAccelerometerMagnitudestd		
+tGravityAccelerometerMagnitudestd	
+tBodyAccelerometerJerkMagnitudestd	
+tBodyGyroscopeMagnitudestd		
+tBodyGyroscopeJerkMagnitudestd		
+fBodyAccelerometerstdX			
+fBodyAccelerometerstdY			
+fBodyAccelerometerstdZ			
+fBodyAccelerometerJerkstdX		
+fBodyAccelerometerJerkstdY	
+fBodyAccelerometerJerkstdZ	
+fBodyGyroscopestdX		
+fBodyGyroscopestdY		
+fBodyGyroscopestdZ	
+fBodyAccelerometerMagnitudestd	
+fBodyBodyAccelerometerJerkMagnitudestd
+fBodyBodyGyroscopeMagnitudestd		
+fBodyBodyGyroscopeJerkMagnitudestd
