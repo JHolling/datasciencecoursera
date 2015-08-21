@@ -20,7 +20,8 @@ Activity         --       SITTING
 	  
 DataSet 	      --        Test or Train: listing data set
 
-tBodyAccelerometermeanX  ..  -1 min to 1 max : for all calucations below.
+                  --        1 min to 1 max : for all calucations below.
+tBodyAccelerometermeanX 
 tBodyAccelerometermeanY                
 tBodyAccelerometermeanZ                 
 tGravityAccelerometermeanX              
