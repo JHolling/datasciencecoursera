@@ -14,5 +14,5 @@ To run the Function:
 2. type "run_analysis()" without any parameters
 
 Loading Data:
-The output file "mean_report.txt" can be loaded into R by running:
+The output file "tidy_mean_data.txt" can be loaded into R by running:
   tidy_mean_data<-read.table("tidy_mean_data.txt",header=TRUE)
