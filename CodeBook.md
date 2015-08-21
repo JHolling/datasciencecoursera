@@ -1,4 +1,4 @@
-The resulting "tidy_mean_data.txt" data set from running the "run_analysis.r" consist of the average/mean of the mean and standard deviation for each "Activity" with associated "Subject" from the "Human Activity Recognition Using Smartphones Dataset Version 1.0" report. 
+The resulting "tidy_mean_data.txt" data set from running the "run_analysis.R" consist of the average/mean of the mean and standard deviation for each "Activity" with associated "Subject" from the "Human Activity Recognition Using Smartphones Dataset Version 1.0" report. 
 
 From the "Human Activity Recognition Using Smartphones Dataset Version 1.0" this "tidy_mean_data.txt" combines both the "Test" and "Train" data sets with an added "DataSet" Column to determine the data set. The "Subject" and "Activity" and calculations column names were combined from seperate supporting files. The calculation column names were adapted to be more "descriptive" by expanding the activity names and removing ".()-_" characters. In addition, the "Activity" column was converted from integer to a Text action working towards Tidy.
 
