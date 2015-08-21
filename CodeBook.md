@@ -13,9 +13,9 @@ Subject          --     1-30  : indicate subject used for test
 
 Activity         --   *SITTING *STANDING *WALKING *WALKING_DOWNSTAIRS *WALKING_UPSTAIRS  *LAYING  
 	  
-DataSet 	      --        Test or Train: listing data set
+DataSet 	      --        Test or Train:
 
-                  --        1 min to 1 max range for all Column name calculations below.
+                  --        -1 min to 1 max range for all Column name calculations below.
 tBodyAccelerometermeanX                 
 tBodyAccelerometermeanY                 
 tBodyAccelerometermeanZ                 
