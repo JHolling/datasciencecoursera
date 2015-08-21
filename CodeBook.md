@@ -11,12 +11,12 @@ Column Name      --       value/Range/units
 
 Subject          --       1-30  : indicate subject used for test
 
-Activity         --       SITTING
-                  .       STANDING
-                  .       WALKING
-                  .       WALKING_DOWNSTAIRS
-                  .       WALKING_UPSTAIRS
-				  .       LAYING
+Activity         --       SITTING  
+                  .       STANDING  
+                  .       WALKING  
+                  .       WALKING_DOWNSTAIRS  
+                  .       WALKING_UPSTAIRS  
+				  .       LAYING  
 	  
 DataSet 	      --        Test or Train: listing data set
 
@@ -60,13 +60,13 @@ fBodyGyroscopemeanFreqX
 fBodyGyroscopemeanFreqY			
 fBodyGyroscopemeanFreqZ			
 fBodyAccelerometerMagnitudemean		
-fBodyAccelerometerMagnitudemeanFreq 
-fBodyBodyAccelerometerJerkMagnitudemean	
-fBodyBodyAccelerometerJerkMagnitudemeanFreq	
-fBodyBodyGyroscopeMagnitudemean	
-fBodyBodyGyroscopeMagnitudemeanFreq	
-fBodyBodyGyroscopeJerkMagnitudemean	
-fBodyBodyGyroscopeJerkMagnitudemeanFreq	
+fBodyAccelerometerMagnitudemeanFreq		
+fBodyBodyAccelerometerJerkMagnitudemean		
+fBodyBodyAccelerometerJerkMagnitudemeanFreq		
+fBodyBodyGyroscopeMagnitudemean		
+fBodyBodyGyroscopeMagnitudemeanFreq		
+fBodyBodyGyroscopeJerkMagnitudemean		
+fBodyBodyGyroscopeJerkMagnitudemeanFreq		
 tBodyAccelerometerstdX			
 tBodyAccelerometerstdY			
 tBodyAccelerometerstdZ			
