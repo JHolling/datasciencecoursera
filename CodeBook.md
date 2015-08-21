@@ -20,160 +20,160 @@ Activity  				SITTING
 	  
 DataSet  				Test or Train
 
-tBodyAccelerometermeanX 		number
+tBodyAccelerometermeanX 		-1 to 1 
 
-tBodyAccelerometermeanY			number
+tBodyAccelerometermeanY			-1 to 1
 
-tBodyAccelerometermeanZ			number
+tBodyAccelerometermeanZ			-1 to 1
 
-tGravityAccelerometermeanX		number
+tGravityAccelerometermeanX		-1 to 1
 
-tGravityAccelerometermeanY		number
+tGravityAccelerometermeanY		-1 to 1
 
-tGravityAccelerometermeanZ		number
+tGravityAccelerometermeanZ		-1 to 1
 
-tBodyAccelerometerJerkmeanX		number
+tBodyAccelerometerJerkmeanX		-1 to 1
 
-tBodyAccelerometerJerkmeanY		number
+tBodyAccelerometerJerkmeanY		-1 to 1
 
-tBodyAccelerometerJerkmeanZ		number
+tBodyAccelerometerJerkmeanZ		-1 to 1
 
-tBodyGyroscopemeanX			number
+tBodyGyroscopemeanX			-1 to 1
 
-tBodyGyroscopemeanY			number
+tBodyGyroscopemeanY			-1 to 1
 
-tBodyGyroscopemeanZ			number
+tBodyGyroscopemeanZ			-1 to 1
 
-tBodyGyroscopeJerkmeanX			number
+tBodyGyroscopeJerkmeanX			-1 to 1
 
-tBodyGyroscopeJerkmeanY			number
+tBodyGyroscopeJerkmeanY			-1 to 1
 
-tBodyGyroscopeJerkmeanZ			number
+tBodyGyroscopeJerkmeanZ			-1 to 1
 
-tBodyAccelerometerMagnitudemean		number
+tBodyAccelerometerMagnitudemean		-1 to 1
 
-tGravityAccelerometerMagnitudemean 	number
+tGravityAccelerometerMagnitudemean 	-1 to 1
 
-tBodyAccelerometerJerkMagnitudemean 	number
+tBodyAccelerometerJerkMagnitudemean 	-1 to 1
 
-tBodyGyroscopeMagnitudemean		number
+tBodyGyroscopeMagnitudemean		-1 to 1
 
-tBodyGyroscopeJerkMagnitudemean		number
+tBodyGyroscopeJerkMagnitudemean		-1 to 1
 
-fBodyAccelerometermeanX			number
+fBodyAccelerometermeanX			-1 to 1
 
-fBodyAccelerometermeanY			number
+fBodyAccelerometermeanY			-1 to 1
 
-fBodyAccelerometermeanZ			number
+fBodyAccelerometermeanZ			-1 to 1
 
-fBodyAccelerometermeanFreqX		number
+fBodyAccelerometermeanFreqX		-1 to 1
 
-fBodyAccelerometermeanFreqY		number
+fBodyAccelerometermeanFreqY		-1 to 1
 
-fBodyAccelerometermeanFreqZ		number
+fBodyAccelerometermeanFreqZ		-1 to 1
 
-fBodyAccelerometerJerkmeanX		number
+fBodyAccelerometerJerkmeanX		-1 to 1
 
-fBodyAccelerometerJerkmeanY		number
+fBodyAccelerometerJerkmeanY		-1 to 1
 
-fBodyAccelerometerJerkmeanZ		number
+fBodyAccelerometerJerkmeanZ		-1 to 1
 
-fBodyAccelerometerJerkmeanFreqX		number
+fBodyAccelerometerJerkmeanFreqX		-1 to 1
 
-fBodyAccelerometerJerkmeanFreqY		number
+fBodyAccelerometerJerkmeanFreqY		-1 to 1
 
-fBodyAccelerometerJerkmeanFreqZ		number
+fBodyAccelerometerJerkmeanFreqZ		-1 to 1
 
-fBodyGyroscopemeanX			number
+fBodyGyroscopemeanX			-1 to 1
 
-fBodyGyroscopemeanY			number
+fBodyGyroscopemeanY			-1 to 1
 
-fBodyGyroscopemeanZ			number
+fBodyGyroscopemeanZ			-1 to 1
 
-fBodyGyroscopemeanFreqX			number
+fBodyGyroscopemeanFreqX			-1 to 1
 
-fBodyGyroscopemeanFreqY			number
+fBodyGyroscopemeanFreqY			-1 to 1
 
-fBodyGyroscopemeanFreqZ			number
+fBodyGyroscopemeanFreqZ			-1 to 1
 
-fBodyAccelerometerMagnitudemean		number
+fBodyAccelerometerMagnitudemean		-1 to 1
 				
-fBodyAccelerometerMagnitudemeanFreq 	number
+fBodyAccelerometerMagnitudemeanFreq 	-1 to 1
 
-fBodyBodyAccelerometerJerkMagnitudemean number
+fBodyBodyAccelerometerJerkMagnitudemean -1 to 1
 
-fBodyBodyAccelerometerJerkMagnitudemeanFreq number
+fBodyBodyAccelerometerJerkMagnitudemeanFreq -1 to 1
 
-fBodyBodyGyroscopeMagnitudemean		number
+fBodyBodyGyroscopeMagnitudemean		-1 to 1
 
-fBodyBodyGyroscopeMagnitudemeanFreq 	number
+fBodyBodyGyroscopeMagnitudemeanFreq 	-1 to 1
 	
-fBodyBodyGyroscopeJerkMagnitudemean	number
+fBodyBodyGyroscopeJerkMagnitudemean	-1 to 1
 
-fBodyBodyGyroscopeJerkMagnitudemeanFreq number
+fBodyBodyGyroscopeJerkMagnitudemeanFreq -1 to 1
 
-tBodyAccelerometerstdX			number
+tBodyAccelerometerstdX			-1 to 1
 
-tBodyAccelerometerstdY			number
+tBodyAccelerometerstdY			-1 to 1
 
-tBodyAccelerometerstdZ			number
+tBodyAccelerometerstdZ			-1 to 1
 
-tGravityAccelerometerstdX		number
+tGravityAccelerometerstdX		-1 to 1
 
-tGravityAccelerometerstdY		number
+tGravityAccelerometerstdY		-1 to 1
 
-tGravityAccelerometerstdZ		number
+tGravityAccelerometerstdZ		-1 to 1
 
-tBodyAccelerometerJerkstdX		number
+tBodyAccelerometerJerkstdX		-1 to 1
 
-tBodyAccelerometerJerkstdY		number
+tBodyAccelerometerJerkstdY		-1 to 1
 
-tBodyAccelerometerJerkstdZ		number
+tBodyAccelerometerJerkstdZ		-1 to 1
 
-tBodyGyroscopestdX			number
+tBodyGyroscopestdX			-1 to 1
 
-tBodyGyroscopestdY			number
+tBodyGyroscopestdY			-1 to 1
 
-tBodyGyroscopestdZ			number
+tBodyGyroscopestdZ			-1 to 1
 
-tBodyGyroscopeJerkstdX			number
+tBodyGyroscopeJerkstdX			-1 to 1
 
-tBodyGyroscopeJerkstdY			number
+tBodyGyroscopeJerkstdY			-1 to 1
 
-tBodyGyroscopeJerkstdZ			number
+tBodyGyroscopeJerkstdZ			-1 to 1
 
-tBodyAccelerometerMagnitudestd		number
+tBodyAccelerometerMagnitudestd		-1 to 1
 
-tGravityAccelerometerMagnitudestd	number
+tGravityAccelerometerMagnitudestd	-1 to 1
 
-tBodyAccelerometerJerkMagnitudestd	number
+tBodyAccelerometerJerkMagnitudestd	-1 to 1
 
-tBodyGyroscopeMagnitudestd		number
+tBodyGyroscopeMagnitudestd		-1 to 1
 
-tBodyGyroscopeJerkMagnitudestd		number
+tBodyGyroscopeJerkMagnitudestd		-1 to 1
 
-fBodyAccelerometerstdX			number
+fBodyAccelerometerstdX			-1 to 1
 
-fBodyAccelerometerstdY			number
+fBodyAccelerometerstdY			-1 to 1
 
-fBodyAccelerometerstdZ			number
+fBodyAccelerometerstdZ			-1 to 1
 
-fBodyAccelerometerJerkstdX		number
+fBodyAccelerometerJerkstdX		-1 to 1
 
-fBodyAccelerometerJerkstdY		number
+fBodyAccelerometerJerkstdY		-1 to 1
 
-fBodyAccelerometerJerkstdZ		number
+fBodyAccelerometerJerkstdZ		-1 to 1
 
-fBodyGyroscopestdX			number
+fBodyGyroscopestdX			-1 to 1
 	
-fBodyGyroscopestdY			number
+fBodyGyroscopestdY			-1 to 1
 
-fBodyGyroscopestdZ			number
+fBodyGyroscopestdZ			-1 to 1
 
-fBodyAccelerometerMagnitudestd		number
+fBodyAccelerometerMagnitudestd		-1 to 1
 
-fBodyBodyAccelerometerJerkMagnitudestd	number
+fBodyBodyAccelerometerJerkMagnitudestd	-1 to 1
 
-fBodyBodyGyroscopeMagnitudestd		number
+fBodyBodyGyroscopeMagnitudestd		-1 to 1
 
-fBodyBodyGyroscopeJerkMagnitudestd	number
+fBodyBodyGyroscopeJerkMagnitudestd	-1 to 1
