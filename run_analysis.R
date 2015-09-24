@@ -66,8 +66,8 @@ narrow_all<-cbind(sub_col,act_col,mean_cols,std_cols)
 narrow_all[,3]<-activity_labels[narrow_all[,3],2]
 
    ##process groups and running mean on all##
-grouped<-group_by(narrow_all,Subject,Activity,DataSet) ##
-tidy_mean_data<-grouped%>%summarise_each(funs(mean)) ##
+grouped<-group_by(narrow_all,Subject,Activity,DataSet)
+tidy_mean_data<-grouped%>%summarise_each(funs(mean)) 
 
 write.table(tidy_mean_data,file="tidy_mean_data.txt",row.names=FALSE)
 return("tidy_mean_data.txt should be written to setwd location")
